@@ -7,7 +7,7 @@ public class HelloController
 {
     @GetMapping(value="/")
     public String hello(){
-        return "welcome to spring boot demo developed by taj";
+        return "This is a Spring Boot API developed by Shabit Taj S";
 }
-
+    
 }
