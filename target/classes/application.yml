@@ -1,0 +1,16 @@
+server:
+  port: '9000'
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/demo
+    password: Sameeransari@9884121279
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Spring Boot API developed by SHABIT TAJ S

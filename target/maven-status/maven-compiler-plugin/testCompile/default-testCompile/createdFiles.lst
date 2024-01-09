@@ -1,0 +1,4 @@
+com\learning\springdemo\SpringDemoApplicationTests.class
+com\learning\springdemo\repository\DepartmentRepositoryTest.class
+com\learning\springdemo\controller\DepartmentControllerTest.class
+com\learning\springdemo\service\DepartmentServiceTest.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.learning.springdemo.service.DepartmentServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 9.188 s -- in com.learning.springdemo.service.DepartmentServiceTest
