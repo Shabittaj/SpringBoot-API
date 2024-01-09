@@ -25,11 +25,11 @@ class DepartmentServiceTest {
     @BeforeEach
     void setUp() {
         Department department = Department.builder()
-                .departmentName("Chennai")
+                .departmentName("IT")
                 .departmentCode("MCA-06")
                 .departmentId(1L).build();
 
-        Mockito.when(departmentRepository.findByDepartmentNameIgnoreCase("Chennai"))
+        Mockito.when(departmentRepository.findByDepartmentNameIgnoreCase("IT"))
                 .thenReturn(department);
     }
 
@@ -37,7 +37,7 @@ class DepartmentServiceTest {
     @DisplayName("Get Data based in valid Department Name")
     @Disabled
     public void whenValidDepartmentName_thenDepartmentShouldFound(){
-        String departmentName="Chennai";
+        String departmentName="IT";
         Department found = departmentService.fetchDepartmentByName(departmentName);
         assertEquals(departmentName,found.getDepartmentName());
 
